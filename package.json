@@ -1,0 +1,20 @@
+{
+  "name": "Belajar-Fundamental-React",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.10",
+    "@babel/preset-react": "^7.16.7",
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir public",
+    "start": "lite-server --baseDir public"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
